@@ -1,0 +1,43 @@
+menu:
+  Home: /
+  Archives: archives
+  page:
+    About: about
+    Archives: archives
+
+excerpt_link: Continue →
+
+mathjax: true
+fancybox: true
+
+social:
+  twitter: true
+  github: true
+  linkedin: true
+  delicious: true
+  facebook: true
+  rss: true
+
+twitter:
+  username: neyric
+
+delicious:
+  username: neyric
+
+linkedin:
+  username: ericabouaf
+
+facebook:
+  username: eric.abouaf
+
+github:
+  username: neyric
+
+google_analytics: UA-567557-1
+
+addit:
+  facebook: false
+  twitter: true
+  gplus: true
+  pinit: false
+  publid:
