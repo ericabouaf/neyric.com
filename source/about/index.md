@@ -8,7 +8,7 @@ Hi, my name is Eric Abouaf and you are on my blog. Welcome !
 I started as a software developer at Uniways, before co-founding [ClicRDV](http://www.clicrdv.com), and staying as a CTO for 8 years.
 
 
-**By night**, I [write code](github.com/neyric).
+**By night**, I [write code](https://github.com/neyric).
 
 
 **For fun**, I juggle, play tennis, golf, go, and some music.
