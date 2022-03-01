@@ -5,6 +5,9 @@
   "hexo": {
     "version": "6.0.0"
   },
+  "scripts": {
+    "server": "hexo server"
+  },
   "dependencies": {
     "hexo": "^6.0.0",
     "hexo-deployer-aws-s3": "^1.1.1",
