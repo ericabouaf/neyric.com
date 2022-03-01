@@ -14,24 +14,18 @@ social:
   twitter: true
   github: true
   linkedin: true
-  delicious: true
-  facebook: true
+  delicious: false
+  facebook: false
   rss: true
 
 twitter:
-  username: neyric
-
-delicious:
-  username: neyric
+  username: ericabouaf
 
 linkedin:
   username: ericabouaf
 
-facebook:
-  username: eric.abouaf
-
 github:
-  username: neyric
+  username: ericabouaf
 
 google_analytics: UA-567557-1
 
