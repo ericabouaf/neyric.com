@@ -14,8 +14,6 @@ social:
   twitter: true
   github: true
   linkedin: true
-  delicious: false
-  facebook: false
   rss: true
 
 twitter:
