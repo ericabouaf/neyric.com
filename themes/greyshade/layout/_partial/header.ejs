@@ -1,39 +1,27 @@
-<div class="profilepic">
-  <img src="http://www.gravatar.com/avatar/c7d946263af555b019f71f336da1caf9?s=160" alt='Profile Picture' style='width: 160px;' />
-</div><!-- profilepic -->
-<h1><a href="<%- config.root %>"><%= config.author %></a></h1>
-<nav id="main-nav">
-  <ul class="main">
-    <% for (var i in theme.menu.page) { %>
-      <li>
-      <a href="<%- config.root %><%- theme.menu.page[i] %>"><%= i %></a>
-      </li>
-    <% } %>
+
+<nav>
+  <ul>
+    <li>
+        <a href="<%- config.root %>">
+            <img src="https://www.gravatar.com/avatar/c7d946263af555b019f71f336da1caf9?s=50" alt='Profile Picture' />
+            <strong><%= config.author %></strong>
+        </a>
+        <% if(config.description) { %>
+        <p>
+          <%= config.description %>
+        </p>
+        <% } %>
+    </li>
   </ul>
-  <% if(config.description) { %>
-  <section class="aboutme">
-    <p>
-      <%= config.description %>
-    </p>
-  </section>
-  <% } %>
-</nav><!-- main-nav -->
-<nav id="sub-nav">
-  <div class="social">
-    <% if(theme.social.twitter) { %>
-      <a class="twitter" href="http://twitter.com/<%- theme.twitter.username %>"
-         title="Twitter">Twitter</a>
+  <ul>
+    <% for (var i in theme.menu.page) { %>
+        <li>
+        <a href="<%- config.root %><%- theme.menu.page[i] %>"><%= i %></a>
+        </li>
     <% } %>
-    <% if(theme.social.linkedin) { %>
-      <a class="linkedin" href="https://www.linkedin.com/in/<%- theme.linkedin.username %>"
-         title="LinkedIn">LinkedIn</a>
-    <% } %>
-    <% if(theme.social.github) { %>
-      <a class="github" href="http://github.com/<%- theme.github.username %>"
-         title="Github">Github</a>
-    <% } %>
-    <% if(theme.social.rss) { %>
-        <a class="rss" href="<%- config.root%>atom.xml" title="RSS">RSS</a>
-    <% } %>
-  </div>
-</nav><!-- sub-nav -->
+    <li><a href="https://github.com/ericabouaf" aria-label="Eric's GitHub repository"><%- partial('_partial/icons/github') %></a></li>
+    <li><a href="https://twitter.com/ericabouaf" aria-label="Eric's Twitter"><%- partial('_partial/icons/twitter') %></a></li>
+    <li><a class="linkedin" href="https://www.linkedin.com/in/ericabouaf" title="Eric's LinkedIn profile"><%- partial('_partial/icons/linkedin') %></a></li>
+    <li><a href="<%- config.root%>atom.xml">Atom</a></li>
+  </ul>
+</nav>
