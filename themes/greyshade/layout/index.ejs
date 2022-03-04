@@ -4,18 +4,18 @@
 <% }); %>
 </div>
 
-<nav id="pagenavi">
+<nav>
     <% if(page.prev){ %>
-        <a href="<%- config.root %><%- page.prev_link %>" class="prev">
+        <a href="<%- config.root %><%- page.prev_link %>">
           <%= __('prev') %>
         </a>
     <% } %>
     <% if(page.next){ %>
-        <a href="<%- config.root %><%- page.next_link %>" class="next">
+        <a href="<%- config.root %><%- page.next_link %>">
           <%= __('next') %>
         </a>
     <% } %>
-    <div class="center">
+    <div>
       <a href="<%- theme.menu.Archives %>">Blog Archives</a>
     </div>
 </nav>
