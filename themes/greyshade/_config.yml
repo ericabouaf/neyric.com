@@ -7,9 +7,6 @@ menu:
 
 excerpt_link: Continue →
 
-mathjax: true
-fancybox: true
-
 social:
   twitter: true
   github: true
@@ -26,10 +23,3 @@ github:
   username: ericabouaf
 
 google_analytics: UA-567557-1
-
-addit:
-  facebook: false
-  twitter: true
-  gplus: true
-  pinit: false
-  publid:
