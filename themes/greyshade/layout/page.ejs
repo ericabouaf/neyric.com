@@ -4,9 +4,7 @@
   <% } %>
   <div><%- page.content %></div>
 </article>
-<% if(page.sharing) { %>
-  <%- partial('_partial/post/sharing') %>
-<% } %>
+
 <% if(site.disqus_short_name && page.comments) { %>
 <section>
     <h1>Comments</h1>

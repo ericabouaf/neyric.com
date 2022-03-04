@@ -1,4 +1,3 @@
-
 <nav>
   <ul>
     <li>
@@ -19,9 +18,9 @@
         <a href="<%- config.root %><%- theme.menu.page[i] %>"><%= i %></a>
         </li>
     <% } %>
+    <li><a href="<%- config.root%>atom.xml">Atom</a></li>
     <li><a href="https://github.com/ericabouaf" aria-label="Eric's GitHub repository"><%- partial('_partial/icons/github') %></a></li>
     <li><a href="https://twitter.com/ericabouaf" aria-label="Eric's Twitter"><%- partial('_partial/icons/twitter') %></a></li>
     <li><a href="https://www.linkedin.com/in/ericabouaf" title="Eric's LinkedIn profile"><%- partial('_partial/icons/linkedin') %></a></li>
-    <li><a href="<%- config.root%>atom.xml">Atom</a></li>
   </ul>
 </nav>
