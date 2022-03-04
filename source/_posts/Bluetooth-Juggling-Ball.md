@@ -5,6 +5,7 @@ tags:
   - Bluetooth Juggling Ball
   - juggling
 date: 2006-12-29 23:42:19
+lang: fr
 ---
 
 # Bluetooth Juggling Ball

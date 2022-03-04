@@ -5,6 +5,7 @@ tags:
   - singleton
 id: 120
 date: 2007-02-01 14:57:15
+lang: en
 ---
 
 If you'd like to create just one instance of a Class, you'd better use this singleton pattern:

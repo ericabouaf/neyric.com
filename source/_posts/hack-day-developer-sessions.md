@@ -4,6 +4,7 @@ categories:
   - Javascript
 date: 2006-10-14 21:09:31
 tags:
+lang: en
 ---
 
 On the [hackday.blorg](http://developer.yahoo.net/hackday/), you can find two videos from the developer sessions.

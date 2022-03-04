@@ -8,6 +8,7 @@ categories:
   - inputEx
   - YUI Library
 date: 2009-03-06 22:27:14
+lang: en
 ---
 
 **0.2.2 release**

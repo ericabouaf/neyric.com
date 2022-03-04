@@ -8,6 +8,7 @@ categories:
   - Java
   - Salesforce
 date: 2010-12-20 18:08:58
+lang: en
 ---
 
 ![BonitaSoft](http://www.bonitasoft.com/images/bonitasoft-logo.png "BonitaSoft")

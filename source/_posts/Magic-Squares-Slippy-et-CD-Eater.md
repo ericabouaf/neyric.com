@@ -4,6 +4,7 @@ tags:
   - Palm Os
   - palmos
 date: 2006-02-19 00:38:59
+lang: fr
 ---
 
 

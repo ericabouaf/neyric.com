@@ -10,6 +10,7 @@ id: 62
 categories:
   - Projects
 date: 2007-08-22 10:31:00
+lang: en
 ---
 
 [KGS](http://www.gokgs.com/) is the name of the internet server where we play [GO](http://en.wikipedia.org/wiki/Go_%28board_game%29).

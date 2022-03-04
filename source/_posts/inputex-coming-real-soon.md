@@ -9,6 +9,7 @@ id: 69
 categories:
   - inputEx
 date: 2008-02-07 10:26:27
+lang: en
 ---
 
 inputEx is an open-source javascript form library, built on top of the [Yahoo! User Interface (YUI) Library](http://developer.yahoo.com/yui/). It is still under development and will be released real soon, under the [MIT License](http://en.wikipedia.org/wiki/MIT_license).

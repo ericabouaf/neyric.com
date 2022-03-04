@@ -2,6 +2,7 @@ title: Combien coûte une heure de votre vie ?
 tags:
  - gestion du temps
 date: 2018-01-17 22:10:00
+lang: fr
 ---
 
 **Combien seriez-vous prêt à payer pour gagner une heure de votre temps ?** Si vous ne savez pas répondre à cette question, vous vous privez d’un outil extrêmement puissant au quotidien sur l’allocation de votre temps.

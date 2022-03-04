@@ -7,6 +7,7 @@ id: 26
 categories:
   - Php
 date: 2006-10-14 20:38:37
+lang: en
 ---
 
 [Wollabot](http://wollabot.sourceforge.net/) is the easiest way to create your own IRC bot. The framework is entirely built in Php and you need very few tuning to make it work. (Good documentation too...)

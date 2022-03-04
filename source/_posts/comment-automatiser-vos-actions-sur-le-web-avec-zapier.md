@@ -2,6 +2,7 @@ title: Comment automatiser vos actions sur le web avec Zapier
 tags:
  - automatisation digitale 
 date: 2017-11-12 22:10:00
+lang: fr
 ---
 
 [Zapier](https://zapier.com/) est un service en ligne vous permettant de connecter vos applications cloud entre elles, extrêmement facile à mettre en place et s’adressant à des utilisateurs non développeurs.

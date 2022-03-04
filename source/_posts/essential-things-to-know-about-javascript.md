@@ -1,8 +1,10 @@
 title: Essential things to know about Javascript
-id: 125
 date: 2007-02-01 15:32:00
 tags:
+ - javascript
+lang: en
 ---
+
 
 [Douglas Crockford](http://javascript.crockford.com/) has written some essential articles about javascript:
 

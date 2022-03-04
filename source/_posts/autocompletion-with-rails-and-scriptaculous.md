@@ -9,6 +9,7 @@ categories:
   - Javascript
   - Ruby on Rails
 date: 2006-10-24 17:31:04
+lang: en
 ---
 
 <table>

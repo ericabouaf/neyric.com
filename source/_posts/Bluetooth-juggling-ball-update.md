@@ -6,6 +6,7 @@ tags:
   - juggling
   - pictures
 date: 2007-07-08 00:36:22
+lang: fr
 ---
 
 Voici quelques photos des nouvelles balles contenant les capteurs WiTilt.

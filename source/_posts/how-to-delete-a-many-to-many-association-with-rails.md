@@ -8,6 +8,7 @@ id: 61
 categories:
   - Ruby on Rails
 date: 2007-07-08 12:59:53
+lang: en
 ---
 
 Judging by the number of Ruby on Rails developpers asking themselves this question,

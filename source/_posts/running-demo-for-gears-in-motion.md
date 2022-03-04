@@ -7,6 +7,7 @@ id: 131
 categories:
   - Gears In Motion
 date: 2007-10-17 14:04:09
+lang: en
 ---
 
 I just added a demo to show Gears In Motion in use:

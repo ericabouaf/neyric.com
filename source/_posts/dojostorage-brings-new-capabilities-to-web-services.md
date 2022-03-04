@@ -8,6 +8,7 @@ id: 44
 categories:
   - Javascript
 date: 2007-02-01 16:00:22
+lang: en
 ---
 
 [Dojo toolkit](http://dojotoolkit.org/), is well known in the Ajax community to provide numerous widgets to web developper.

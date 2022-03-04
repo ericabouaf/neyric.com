@@ -7,6 +7,7 @@ id: 138
 categories:
   - Server-side javascript
 date: 2008-07-31 15:29:36
+lang: en
 ---
 
 ![Persevere logo](http://persevere.sitepen.com/res/persevere.png)

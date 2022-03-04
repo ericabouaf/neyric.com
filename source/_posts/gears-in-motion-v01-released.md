@@ -5,6 +5,7 @@ categories:
   - Google Gears
 date: 2007-08-23 12:06:29
 tags:
+lang: en
 ---
 
 [![](http://dev.clicrdv.com/gearsinmotion-0.1/images/gim_header.png)](http://gearsinmotionforgears.blogspot.com/)

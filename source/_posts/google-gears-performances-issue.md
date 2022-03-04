@@ -9,6 +9,7 @@ id: 132
 categories:
   - Google Gears
 date: 2007-12-03 12:10:49
+lang: en
 ---
 
 I've been using Google Gears rather intensively (see [Gears In Motion](http://neyric.com/blog/running-demo-for-gears-in-motion)) during the last few months.

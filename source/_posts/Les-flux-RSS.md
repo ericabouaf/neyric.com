@@ -4,6 +4,7 @@ tags:
   - flux RSS
   - rss
 date: 2007-05-14 16:41:29
+lang: fr
 ---
 
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png)

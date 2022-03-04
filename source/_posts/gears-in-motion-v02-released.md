@@ -4,6 +4,7 @@ categories:
   - Gears In Motion
 date: 2007-10-12 17:01:43
 tags:
+lang: en
 ---
 
 I just released the v0.2 of

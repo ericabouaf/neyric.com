@@ -8,6 +8,7 @@ id: 133
 categories:
   - WireIt
 date: 2007-12-06 12:45:28
+lang: en
 ---
 
 I'm pleased to announce the first release of [WireIt](http://javascript.neyric.com/wireit/) (version 0.1) !

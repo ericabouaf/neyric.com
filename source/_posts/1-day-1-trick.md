@@ -2,6 +2,7 @@ title: 1 day 1 trick
 tags:
   - 1day1trick
 date: 2006-05-05 16:44:41
+lang: fr
 ---
 
 **Mise à  jour :** Bon ok, ca n'a pas tenu très longtemps... Mais une nouvelle vidéo longue est en cours de préparation alors patience :)
@@ -10,7 +11,7 @@ date: 2006-05-05 16:44:41
 
    Le principe est simple. Chaque jour j'essaie de filmer une figure ou un enchainement de jonglage à 3 balles et je mets la vidéo en ligne. Je ne ferai aucun montage (sauf le bon reggae en fond), et peut-être qu'à  la fin de chaque mois j'essaierai un enchainement des 30 dernières figures...
 
-**Les vidÃ©os:**
+**Les vidéos:**
 
 *   [02/10/2006: Transitions Up/Down 5 balles par Max (format wmv, 2.3 Mo)](/files/jonglage/1day1trick/Up_and_down.wmv)
 

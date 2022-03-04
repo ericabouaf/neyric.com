@@ -3,6 +3,7 @@ tags:
   - javascript
 id: 126
 date: 2007-02-01 15:37:53
+lang: en
 ---
 
 Here are some rules I constrain myself to, and that can be useful for others :

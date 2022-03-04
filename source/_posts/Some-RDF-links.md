@@ -4,6 +4,7 @@ tags:
   - rdf
   - Uncategorized
 date: 2005-07-04 02:00:00
+lang: fr
 ---
 
 Je ne sais pas où garder ces liens donc je les mets ici :)

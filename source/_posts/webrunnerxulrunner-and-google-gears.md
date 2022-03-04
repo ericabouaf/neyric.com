@@ -4,6 +4,7 @@ categories:
   - Google Gears
 date: 2007-10-12 11:41:26
 tags:
+lang: en
 ---
 
 I get very excited by [the recent release of WebRunner 0.7](http://starkravingfinkle.org/blog/2007/09/webrunner-07-new-and-improved/) : _"[WebRunner](http://wiki.mozilla.org/WebRunner) is a simple XULRunner based browser that hosts web applications without the normal web browser user interface."_

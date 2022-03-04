@@ -4,6 +4,7 @@ tags:
   - ruby
   - Ruby on Rails
 date: 2006-10-14 23:18:32
+lang: fr
 ---
 
 _French speakers only ;)_

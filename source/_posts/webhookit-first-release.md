@@ -14,6 +14,7 @@ categories:
   - WireIt
   - YUI Library
 date: 2011-01-29 19:47:35
+lang: en
 ---
 
 I'm very pleased to announce the birth of [WebHookIt](http://neyric.github.com/webhookit/) !

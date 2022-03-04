@@ -3,6 +3,7 @@ tags:
   - reusability
 id: 124
 date: 2007-02-01 15:20:41
+lang: en
 ---
 
 Javascript prototype inheritance allows a lot of code re-use.

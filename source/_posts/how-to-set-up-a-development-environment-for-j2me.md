@@ -7,6 +7,7 @@ id: 17
 categories:
   - Java
 date: 2006-10-17 16:17:23
+lang: en
 ---
 
 The first time I tried to build a J2ME (Java2 Mobile Edition) application, I had a hard time choosing the right tools.

@@ -6,9 +6,10 @@ id: 128
 categories:
   - Javascript
 date: 2007-04-26 13:12:13
+lang: en
 ---
 
-In every web application that intensivly uses javascript: errors may occur !
+In every web application that intensively uses javascript: errors may occur !
 Since I'm not able to fully-test my web-application each time a modification is made, I decided to report javascript
 errors to the server. It proved to be very useful to detect bugs very quickly.
 

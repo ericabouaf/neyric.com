@@ -7,6 +7,7 @@ id: 45
 categories:
   - Ruby on Rails
 date: 2007-02-10 17:51:19
+lang: en
 ---
 
 As you may (or may not) know, there are two ways to build a many-to-many (or N-N) relationship with Rails.

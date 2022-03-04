@@ -8,6 +8,7 @@ id: 46
 categories:
   - Javascript
 date: 2007-02-16 16:30:34
+lang: en
 ---
 
 ![Yahoo! Pipes logo](http://l.yimg.com/us.yimg.com/i/us/pps/logo_1.gif)

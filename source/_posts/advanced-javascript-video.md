@@ -5,6 +5,7 @@ tags:
   - video
 id: 121
 date: 2007-02-01 15:05:02
+lang: en
 ---
 
 Douglas Crockford from Yahoo! made a few presentations about the Javascript Language.

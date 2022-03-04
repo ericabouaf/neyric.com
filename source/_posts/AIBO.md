@@ -3,6 +3,7 @@ tags:
   - AIBO
   - aibo
 date: 2006-04-15 03:01:00
+lang: fr
 ---
 
 <u>**Manuel de programmation OPEN-R SDK**</u>, programmation de l'AIBO en C++

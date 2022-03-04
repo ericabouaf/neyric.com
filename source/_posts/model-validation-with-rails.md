@@ -7,6 +7,7 @@ id: 24
 categories:
   - Ruby on Rails
 date: 2006-10-14 19:56:47
+lang: en
 ---
 
 <table>

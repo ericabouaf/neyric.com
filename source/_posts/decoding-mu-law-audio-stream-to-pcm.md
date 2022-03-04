@@ -7,6 +7,7 @@ id: 23
 categories:
   - Programming
 date: 2006-10-14 19:35:48
+lang: en
 ---
 
 Axis network video cameras (such Axis 214) provide an [API to retrieve audio data over HTTP](http://www2.axis.com/files/developer/camera/audio.pdf).

@@ -2,6 +2,7 @@ title: 'Nouvelle compagnie, nouveau site'
 tags:
   - Uncategorized
 date: 2010-11-28 15:32:40
+lang: fr
 ---
 
 Bienvenue à _Harvard Air Taxi !_

@@ -4,7 +4,8 @@ tags:
 id: 127
 categories:
   - Flash
-date: 2007-02-01 15:53:50
+date: 2007-02-01 15:53:50 
+lang: en
 ---
 
 The version 1.0 of [AFLAX](http://www.aflax.org/) has been released :

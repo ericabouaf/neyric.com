@@ -4,6 +4,7 @@ categories:
   - Web development
 date: 2006-10-14 19:34:39
 tags:
+lang: en
 ---
 
 One thing I discovered during the latest RIN workshop (thanks to [Anita de Waard](http://www.cs.uu.nl/people/anita/)) was [_**Slidy**_.](http://www.w3.org/Talks/Tools/Slidy/)

@@ -4,6 +4,7 @@ tags:
   - Juggling Videos
   - video
 date: 2005-06-28 02:52:00
+lang: fr
 ---
 
 Voici quelques vidéos de jonglage en vrac.

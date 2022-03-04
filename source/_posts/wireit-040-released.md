@@ -11,6 +11,7 @@ categories:
   - WireIt
   - YUI Library
 date: 2009-05-17 14:39:26
+lang: en
 ---
 
 The long awaited release of WireIt is finally here ! Awaited indeed, since a major bug was still present in version 0.3.0, preventing it to work on IE. It has been fixed for a long time on the repository but has discouraged many people using WireIt (hopefully not too much...).

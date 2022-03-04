@@ -8,6 +8,7 @@ id: 59
 categories:
   - Ruby on Rails
 date: 2007-07-07 17:29:01
+lang: en
 ---
 
 Every time your browser loads an new url, it also request a file

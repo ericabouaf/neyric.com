@@ -7,6 +7,7 @@ categories:
   - Javascript
   - YUI Library
 date: 2008-11-01 17:45:00
+lang: en
 ---
 
 [inputEx](http://javascript.neyric.com/inputex/) 0.2.0 is finally available for [download](http://code.google.com/p/inputex/downloads/list) !

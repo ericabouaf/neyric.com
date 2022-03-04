@@ -4,6 +4,7 @@ tags:
   - firebug
 id: 122
 date: 2007-02-01 15:10:11
+lang: en
 ---
 
 The new version of Firebug is finally [released ](http://getfirebug.com/)!!!

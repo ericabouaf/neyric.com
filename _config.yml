@@ -7,8 +7,10 @@ title: Neyric.com
 subtitle: "Eric Abouaf | The Blog"
 description: "Web Developer, Entrepreneur, Software Architect, API enthusiast, ..."
 author: Eric Abouaf
-language: en
-timezone:
+language:
+  - en
+  - fr
+timezone: Europe/Paris
 email: eric.abouaf@gmail.com
 
 # URL

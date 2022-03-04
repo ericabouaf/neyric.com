@@ -10,6 +10,7 @@ categories:
   - yproject
   - YUI Library
 date: 2011-01-16 12:41:04
+lang: en
 ---
 
 If one of your project is using the YUI library, you should definitely consider using the YUI Builder. For YUI3, I would go event further in saying that it is **mandatory**. Here is why.

@@ -2,6 +2,7 @@ title: Les 4 types de revenus passifs
 tags:
   - indépendance financière
 date: 2018-04-08 23:01:00
+lang: fr
 ---
 
 Les revenus passifs sont des revenus décorrélés de votre temps passé.

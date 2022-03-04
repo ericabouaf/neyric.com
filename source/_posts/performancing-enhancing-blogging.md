@@ -4,6 +4,7 @@ categories:
   - Web development
 date: 2006-10-14 19:19:45
 tags:
+lang: en
 ---
 
 ![Performancing Logo](http://performancing.com/themes/performancingMain/images/headlogo.png)

@@ -3,6 +3,7 @@ tags:
   - ti89
   - topskater
 date: 2000-05-29 01:41:55
+lang: fr
 ---
 
 ![](topskater.gif)

@@ -9,6 +9,7 @@ categories:
   - inputEx
   - YUI Library
 date: 2008-05-07 14:12:48
+lang: en
 ---
 
 **It's finally time !**

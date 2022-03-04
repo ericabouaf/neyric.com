@@ -4,6 +4,7 @@ tags:
   - timer
 id: 35
 date: 2007-02-01 14:50:54
+lang: en
 ---
 
 _ **UPDATE**: I don't recommend this method anymore: it's not a good idea to add functions to Object.prototype. Prefer adding this function to your object prototypes._

@@ -9,68 +9,106 @@ categories:
   - inputEx
   - Server-side javascript
 date: 2009-01-26 16:04:20
+lang: en
 ---
 
 Proposed by [Kris Zyp](http://www.sitepen.com/blog/author/kzyp/), JSON Schema takes the good ideas from XML Schema. From [http://json-schema.org/](http://json-schema.org/) :
 > _JSON Schema is a specification for a JSON-based format for defining the structure of JSON data. JSON Schema provides a contract for what JSON data is required for a given application and how it can be modified, much like what XML Schema provides for XML. JSON Schema is intended to provide validation, documentation, and interaction control of JSON data._
 There are numerous similarities between inputEx and JSON Schema. If you are not convinced, here is an example of a JSON schema:
-> `{"description":"A person",> 
-> "type":"object",`> 
+> `{"description":"A person",
 > 
-> ` "properties": {> 
-> "name": {"type":"string"},> 
-> "born" : {`> 
+> "type":"object",`
 > 
-> ` "type":["integer","string"],> 
-> "minimum":1900,_> 
-> _`` "maximum":2010,> 
-> `> 
 > 
-> ` "format":"date-time", _> 
-> _ "optional":true> 
-> `` },> 
-> "gender" : {"type":"string",> 
-> "options":[`> 
+> ` "properties": {
 > 
-> ` {"value:"male","label":"Guy"},`> 
+> "name": {"type":"string"},
 > 
-> ` {"value":"female","label":"Gal"}]},``> 
-> "address" : {"type":"object"``,> 
-> "properties":{`> 
+> "born" : {`
 > 
-> ` "street":{"type":"string"},> 
-> "city":{"type":"string"},> 
-> "state":{"type":"string"}> 
-> }> 
-> }> 
-> `> 
 > 
-> ` }<code>> 
+> ` "type":["integer","string"],
+> 
+> "minimum":1900,_
+> 
+> _`` "maximum":2010,
+> 
+> `
+> 
+> 
+> ` "format":"date-time", _
+> 
+> _ "optional":true
+> 
+> `` },
+> 
+> "gender" : {"type":"string",
+> 
+> "options":[`
+> 
+> 
+> ` {"value:"male","label":"Guy"},`
+> 
+> 
+> ` {"value":"female","label":"Gal"}]},``
+> 
+> "address" : {"type":"object"``,
+> 
+> "properties":{`
+> 
+> 
+> ` "street":{"type":"string"},
+> 
+> "city":{"type":"string"},
+> 
+> "state":{"type":"string"}
+> 
+> }
+> 
+> }
+> 
+> `
+> 
+> 
+> ` }<code>
+> 
 > `}</code>
 inputEx users should be comfortable writing a form for this schema :
-> {> 
+> {
 > 
-> type: "group",> 
 > 
-> fields: [> 
+> type: "group",
 > 
-> {type: "string", inputParams: {name: "name", required: true}},> 
 > 
-> {type: "date", inputParams: {name: "born"} },> 
+> fields: [
 > 
-> {type: "select", inputParams: {name: "gender", selectOptions:["Guy", "Gal"], selectValues: ["male", "female"]}},> 
 > 
-> {type: "group", inputParams: {> 
+> {type: "string", inputParams: {name: "name", required: true}},
 > 
-> name:"address",> 
 > 
-> fields: [> 
+> {type: "date", inputParams: {name: "born"} },
 > 
-> {type: "string", inputParams: {name: "street"}},> 
 > 
-> {type: "string", inputParams: {name: "city"}},> 
+> {type: "select", inputParams: {name: "gender", selectOptions:["Guy", "Gal"], selectValues: ["male", "female"]}},
 > 
-> {type: "string", inputParams: {name: "state"}}> 
+> 
+> {type: "group", inputParams: {
+> 
+> 
+> name:"address",
+> 
+> 
+> fields: [
+> 
+> 
+> {type: "string", inputParams: {name: "street"}},
+> 
+> 
+> {type: "string", inputParams: {name: "city"}},
+> 
+> 
+> {type: "string", inputParams: {name: "state"}}
+> 
 > 
 > ]    }  }  ] }
 The main difference is that the** JSON schema ontology is data-centric, wheras the inputEx JSON schema ontology is form-centric**, but as you can see, they are very similar.

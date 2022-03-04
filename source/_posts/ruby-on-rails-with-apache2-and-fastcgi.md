@@ -7,6 +7,7 @@ id: 32
 categories:
   - Ruby on Rails
 date: 2005-07-04 00:00:00
+lang: en
 ---
 
 ```sh

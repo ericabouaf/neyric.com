@@ -5,6 +5,7 @@ id: 22
 categories:
   - Web development
 date: 2006-10-14 19:35:28
+lang: en
 ---
 
 ![xulplanet.com](http://xulplanet.com/images/xulplanet.png)

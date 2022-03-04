@@ -5,6 +5,7 @@ categories:
   - YUI Library
 date: 2009-01-26 16:03:29
 tags:
+lang: en
 ---
 
 We were so focused on developping very cool web applications with inputEx, that we delayed this released many times. [Here it is](http://javascript.neyric.com/inputex/) !

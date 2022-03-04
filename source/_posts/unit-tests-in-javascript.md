@@ -4,6 +4,7 @@ tags:
   - unit
 id: 123
 date: 2007-02-01 15:15:57
+lang: en
 ---
 
 If you're used to unit testing ( using JUnit in java, Test::Unit in Rails, etc... ), you might like to have a look at [http://www.jsunit.net/](http://www.jsunit.net/)

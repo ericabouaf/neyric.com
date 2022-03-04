@@ -7,6 +7,7 @@ id: 119
 categories:
   - YUI Library
 date: 2006-10-14 19:28:01
+lang: en
 ---
 
 _"The Yahoo! User Interface (YUI) Library is a set of utilities and controls, 		  written in JavaScript, for building richly interactive web applications 		  using techniques such as DOM scripting, DHTML and AJAX."_

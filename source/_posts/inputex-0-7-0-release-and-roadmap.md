@@ -9,6 +9,7 @@ categories:
   - Projects
   - YUI Library
 date: 2011-01-07 11:00:55
+lang: en
 ---
 
 ![](http://neyric.github.com/inputex.jpg "inputEx")

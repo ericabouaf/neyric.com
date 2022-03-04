@@ -3,6 +3,7 @@ tags:
  - indépendance financière
  - finances personnelles
 date: 2018-04-07 22:01:00
+lang: fr
 ---
 
 <img src="/images/save-1710217_1280.jpeg" />

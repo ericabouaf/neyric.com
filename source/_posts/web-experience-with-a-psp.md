@@ -4,6 +4,7 @@ categories:
   - Web development
 date: 2006-10-14 19:31:45
 tags:
+lang: en
 ---
 
 I tried to surf on the web with the PSP and a WiFi access (with a WEP security), here's how it looked like :

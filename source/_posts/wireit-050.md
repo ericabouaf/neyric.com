@@ -5,6 +5,7 @@ categories:
   - YUI Library
 date: 2009-08-11 09:04:00
 tags:
+lang: en
 ---
 
 Hi everyone !

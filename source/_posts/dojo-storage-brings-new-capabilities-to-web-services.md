@@ -6,6 +6,7 @@ tags:
   - javascript
   - offline
 date: 2007-02-01 17:00:22
+lang: en
 ---
 
 [Dojo toolkit](http://dojotoolkit.org/), is well known in the Ajax community to provide numerous widgets to web developper.

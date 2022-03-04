@@ -8,6 +8,7 @@ id: 134
 categories:
   - WireIt
 date: 2008-01-05 01:12:09
+lang: en
 ---
 
 ![](http://javascript.neyric.com/wireit/jsBox.gif)

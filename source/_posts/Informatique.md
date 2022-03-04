@@ -2,6 +2,7 @@ title: Informatique
 tags:
   - Informatique
 date: 2006-06-29 01:34:22
+lang: fr
 ---
 
 <span style="text-decoration: underline;">**SAP detect**</span>, Programme en C pour écouter des annonces SAP (license GPL).

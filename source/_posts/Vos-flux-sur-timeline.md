@@ -2,6 +2,7 @@ title: Vos flux sur timeline
 tags:
   - flux RSS
 date: 2008-05-07 18:34:19
+lang: fr
 ---
 
 Toujours à propos des timelines (cf [post précédent sur Dipity](http://www.neyric.com/blog/dipity-timelines)), le projet SIMILE ("Semantic Interoperability of Metadata and Information in unLike Environments" ouf !) dispose d'un [très bon composant de timeline](http://simile.mit.edu/timeline/).

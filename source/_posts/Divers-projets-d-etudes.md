@@ -2,6 +2,7 @@ title: "Divers projets d'études"
 tags:
   - PC et réseaux
 date: 2006-06-07 16:38:36
+lang: fr
 ---
 
 <u>**SAP detect**</u>, Programme en C pour écouter des annonces SAP (license GPL).

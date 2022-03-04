@@ -5,6 +5,7 @@ id: 29
 categories:
   - Web development
 date: 2006-10-15 12:14:55
+lang: en
 ---
 
 [http://www.econsultant.com/](http://www.econsultant.com/) tries to be an exhaustive collection of links about Web developement.

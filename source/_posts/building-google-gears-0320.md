@@ -6,6 +6,7 @@ id: 9
 categories:
   - Google Gears
 date: 2008-01-03 14:06:22
+lang: en
 ---
 
 ![](http://gears.google.com/images/gears_sm.png)

@@ -2,6 +2,7 @@ title: Dipity timelines
 tags:
   - Uncategorized
 date: 2008-05-02 12:21:38
+lang: fr
 ---
 
 [Dipity](http://www.dipity.com) est un service très sympa permettant de créer des frises chronologiques ("timelines" en anglais).
