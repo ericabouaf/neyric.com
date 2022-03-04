@@ -31,6 +31,22 @@ if (page.archive) title = __('archive_a');
         <h1 class="title" itemprop="name">
           <a href="<%- config.root %><%- item.path %>"><%= item.title %></a>
         </h1>
+
+        <% if (item.thumbnail){ %>
+          <div class="post-thumbnail">
+              <a href="<%- url_for(item.path) %>">
+                <img src="<%- url_for(item.thumbnail) %>" alt="<%= item.title %>" itemprop="image">
+              </a>
+          </div>
+        <% } %>
+
+        <% if (item.excerpt){ %>
+            <p><%= item.excerpt %></p>
+
+            <p>Lire l'article complet</p>
+        <% } %>
+
+
     </article>
     <% if (show) { %>
     </section>
