@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CD Eater</title>
+<style>
+#game { border: 3px solid black; width: 640px; margin: 30px auto; }
+.row { width: 640px; height: 40px; }
+.cell { width: 40px; height: 40px; float: left; background-size: 40px 40px; }
+
+.block-0 { background-image: none; }
+.block-1 { background-image: url(data:image/png;base64,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);}
+.block-2 { background-image: url(data:image/png;base64,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);}
+.block-3 { background-image: none; }
+.block-4 { background-image: url(data:image/png;base64,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);}
+
+.eater-1 { background-image: url(data:image/png;base64,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);}
+.eater-2 { background-image: url(data:image/png;base64,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);}
+.eater-3 { background-image: url(data:image/png;base64,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);}
+.eater-4 { background-image: url(data:image/png;base64,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);}
+</style>
+  </head>
+<body>
+
+<center>
+  <img width="160" height="110" title="" alt="" src="data:image/png;base64,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" />
+  <h2>Level: <span id='lvl'></span></h2>
+  <button onclick="LoadLevel(); DrawLevel();">Restart level</button>
+</center>
+
+<div id='game'></div>
+
+<script>
+
+window.onload = function () {
+  initDom();
+  LoadLevel();
+  DrawLevel();
+};
+
+document.onkeydown = function(event) {
+ event = event || window.event;
+ var e = event.keyCode;
+ if (e==38){ player.eater = 3; DoMove([0,-1]); }
+ if (e==37){ player.eater = 4; DoMove([-1,0]); }
+ if (e==40){ player.eater = 2; DoMove([0,1]); }
+ if (e==39){player.eater = 1; DoMove([1,0]);}
+
+ checkLevelEnd();
+}
+
+
+var joueur = {
+  level_nbr: 0,
+  blocs: null,
+  max_level: 0,
+  level_nbr: 0
+};
+var player = joueur;
+
+function initDom() {
+  var mainEl = document.getElementById('game');
+
+  for(var j = 0 ; j < 10 ; j++ ) {
+    var row = document.createElement('div');
+    row.className = 'row';
+    for(var i = 0 ; i < 16 ; i++ ) {
+      var cell = document.createElement('div');
+      cell.className = 'cell';
+      cell.id = 'cell-'+i+'-'+j;
+      row.appendChild(cell);
+    }
+    mainEl.appendChild(row);
+  }
+}
+
+function checkLevelEnd() {
+  if( player.cd_left == 0) {
+    player.level_nbr++;
+
+  	if( player.level_nbr > player.max_level) {
+  	   player.max_level = player.level_nbr;
+    }
+
+  	LoadLevel();
+  	DrawLevel();
+  }
+}
+
+function DoMove(direction) {
+
+  while(player.playerx+direction[0] <= 15 &&
+        player.playerx+direction[0] >= 0 &&
+        player.playery+direction[1] <= 9 &&
+        player.playery+direction[1] >= 0 &&
+        player.blocs[player.playerx+direction[0]][player.playery+direction[1]] != 1  &&
+	      player.blocs[player.playerx+direction[0]][player.playery+direction[1]] != 4 ) {
+
+    player.playerx += direction[0];
+    player.playery += direction[1];
+
+    // Eat a CD
+	  if( player.blocs[player.playerx][player.playery] == 2 ) {
+      player.blocs[player.playerx][player.playery] = 0;
+		  player.cd_left--;
+	  }
+
+    DrawPlayer();
+    clearBlock(player.prevx, player.prevy);
+
+	  player.prevx = player.playerx;
+	  player.prevy = player.playery;
+
+  }
+
+   // Breakable block :
+   if( player.playerx+direction[0] <= 15 &&
+         player.playerx+direction[0] >= 0 &&
+         player.playery+direction[1] <= 9 &&
+         player.playery+direction[1] >= 0 &&
+         player.blocs[player.playerx+direction[0]][player.playery+direction[1]] == 4) {
+     player.blocs[player.playerx+direction[0]][player.playery+direction[1]] = 0;
+     clearBlock(player.playerx+direction[0], player.playery+direction[1]);
+   }
+
+}
+
+function clearBlock(i, j) {
+  document.getElementById('cell-'+i+'-'+j).className = 'cell block-0';
+}
+
+function LoadLevel() {
+   // On va compter le nombre de CDs
+   joueur.cd_left = 0;
+
+   // Boucle pour le chargement case par case
+   joueur.blocs = [];
+   for(var i = 0 ; i < 16 ; i++) {
+      joueur.blocs[i] = [];
+      for(var j = 0 ; j < 10 ; j++)
+      {
+        var block = levels[joueur.level_nbr][i+j*16];
+        joueur.blocs[i].push(block);
+
+      	 // Si la case est le départ on actualise les positions
+        if( joueur.blocs[i][j] == 3) {
+         		joueur.playerx = i;
+        		joueur.playery = j;
+        		joueur.prevx = i;
+        		joueur.prevy = j;
+         }
+
+      	  // Si c'est un CD ca fait un CD de plus
+      	  if( joueur.blocs[i][j] == 2) {
+      	   joueur.cd_left++;
+         }
+      }
+  }
+
+   // Par défaut on place eater = 1
+   joueur.eater = 1;
+}
+
+function DrawLevel() {
+
+  document.getElementById('lvl').innerHTML = (joueur.level_nbr+1);
+
+   for(var i = 0 ; i < 16 ; i++) {
+      for(var j = 0 ; j < 10 ; j++) {
+        var res = joueur.blocs[i][j];
+        var cell = document.getElementById('cell-'+i+'-'+j);
+        cell.className = 'cell block-'+res;
+      }
+    }
+
+    DrawPlayer();
+}
+
+function DrawPlayer() {
+  var cell = document.getElementById('cell-'+joueur.playerx+'-'+joueur.playery);
+  cell.className = 'cell eater-'+joueur.eater;
+}
+
+
+
+var levels = [
+  [ 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+    1,0,1,1,0,0,0,0,0,0,0,0,2,1,1,1,
+    1,0,0,0,0,0,0,0,0,0,0,2,0,1,1,1,
+    1,0,0,0,0,0,0,0,1,1,2,0,0,0,0,1,
+    1,3,0,0,1,1,0,2,0,0,0,0,0,0,1,1,
+    1,1,0,2,0,0,2,0,0,0,0,0,0,0,0,1,
+    1,0,2,0,0,0,0,0,0,0,0,0,2,0,0,1,
+    1,0,0,0,0,0,0,0,0,2,1,1,0,2,0,1,
+    1,0,0,0,0,0,1,1,2,0,0,0,0,0,2,1,
+    1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] ,
+
+  [ 0,1,0,0,1,0,1,0,1,0,0,0,1,0,1,1,
+    1,0,0,0,2,0,0,0,0,0,0,0,0,0,3,1,
+    0,0,0,1,2,0,0,1,2,0,0,0,2,0,0,0,
+    1,0,1,0,2,0,0,0,0,0,2,0,0,1,0,1,
+    0,0,0,0,0,0,1,0,0,0,2,0,0,0,1,0,
+    1,0,0,0,0,1,1,1,0,0,2,0,0,0,0,1,
+    0,0,0,1,0,0,1,0,1,0,0,0,1,2,2,1,
+    1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
+    0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,
+    0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0] ,
+
+  [ 3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
+    0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,
+    0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,
+    2,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+    0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+    0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+    1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ,
+
+ [ 0,0,1,2,0,0,0,0,0,0,0,0,0,0,1,0,
+   0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+   0,0,0,0,0,0,0,0,1,0,2,0,0,0,0,0,
+   1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
+   2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,1,0,0,0,0,2,0,0,1,0,0,0,0,
+   0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,3] ,
+
+ [ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
+   0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,1,2,0,0,0,0,0,0,0,2,0,0,1,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
+   3,0,2,1,0,0,0,0,0,0,0,0,0,2,1,0,
+   0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1] ,
+
+ [ 0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,
+   0,2,2,0,0,0,0,1,0,0,0,0,0,0,2,1,
+   0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,1,
+   0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,
+   2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
+   1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,3] ,
+
+[ 1,2,0,0,0,0,0,0,0,0,2,2,1,1,1,1,
+   2,3,0,0,0,0,0,0,2,0,0,0,1,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,
+   0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,
+   0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,
+   0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
+   0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,2,
+   0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+   1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1] ,
+
+[ 0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,2,0,0,0,0,0,0,3,0,2,0,0,2,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
+   0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,
+   0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1] ,
+
+
+[ 0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,
+   0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,
+   0,0,1,0,0,0,0,0,0,0,0,0,2,0,1,0,
+   2,0,0,0,0,0,1,1,3,0,0,0,1,0,0,0,
+   0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+   1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,1,2,1,0,0,0,1,2,0,0,0,0] ,
+
+[ 0,1,0,0,0,0,0,2,0,0,0,1,0,0,0,0,
+   0,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+   1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,2,0,0,0,0,4,4,0,0,0,
+   0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,1,1,0,0,0,0,0,1,0,0,2,0,0,0,
+   4,4,0,0,0,0,0,0,4,0,0,0,0,0,0,0,
+   1,4,4,1,1,1,1,1,1,1,1,1,1,1,1,4,
+   1,0,0,0,4,4,0,0,0,0,2,2,2,2,1,2] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+   0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,3,
+   0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,2,1,0,0,1,0,0,0,0,0,
+   0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,
+   1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+   0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0] ,
+
+ [ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
+   0,0,0,0,1,0,0,2,0,0,2,1,0,0,0,0,
+   0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,
+   0,0,0,0,0,2,2,0,0,2,0,1,0,0,0,0,
+   0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0] ,
+
+[ 1,1,4,0,0,4,0,0,0,0,0,0,0,0,4,0,
+   0,0,0,0,0,1,1,1,1,2,0,4,4,4,0,0,
+   0,0,1,0,0,0,0,0,1,0,0,0,0,4,0,0,
+   0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,
+   0,0,2,0,0,1,0,2,1,0,0,0,0,0,0,0,
+   0,1,0,1,4,0,0,1,1,0,0,0,2,2,0,0,
+   1,1,0,0,0,0,0,0,0,0,0,0,1,2,0,0,
+   0,0,1,0,0,0,0,0,3,0,4,0,0,1,0,0,
+   0,0,0,1,4,1,4,0,0,0,0,0,0,0,0,2,
+   2,0,0,0,2,0,1,0,0,0,0,0,4,0,0,0] ,
+
+[ 0,0,1,1,1,1,1,1,0,0,2,0,0,2,0,0,
+   1,1,2,0,0,0,0,0,1,0,0,0,0,1,1,0,
+   0,2,1,0,0,0,0,0,0,0,0,0,0,2,1,2,
+   0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+   0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,2,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
+   2,0,2,0,0,0,0,1,0,0,0,0,0,0,2,1,
+   0,1,0,1,0,0,0,0,0,0,1,0,0,2,1,0,
+   0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,1,1,0,2,0,
+   0,0,0,0,0,0,0,0,0,0,1,0,2,0,1,0,
+   0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,
+   0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,
+   0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,
+   0,0,1,0,3,0,0,0,0,0,0,0,0,0,1,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,
+   0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,
+   0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0] ,
+
+[ 0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,3,
+   0,0,0,1,2,1,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,4,0,4,0,4,0,0,0,0,0,0,0,
+   0,0,0,0,4,0,4,0,4,0,0,0,0,0,0,0,
+   0,0,0,0,2,2,2,2,2,2,0,0,0,0,0,0,
+   0,0,0,4,0,4,0,4,0,4,0,0,0,0,0,0,
+   0,0,0,0,0,4,0,4,0,4,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0,
+   0,0,0,4,2,0,0,0,2,0,0,2,4,0,0,0,
+   0,0,4,0,0,0,0,4,0,3,0,0,4,0,0,0,
+   0,0,2,0,4,0,2,0,0,0,0,2,2,4,0,0,
+   0,4,0,0,4,0,0,0,0,0,4,0,0,4,0,0,
+   0,0,0,4,0,4,0,0,4,2,0,0,0,1,0,0,
+   0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ,
+
+[ 2,2,2,2,4,0,0,0,0,0,0,0,0,0,0,0,
+   4,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,2,0,0,0,0,0,0,0,0,0,4,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,2,4,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,4,3,4,0,0,0,0,0,0,1,0,
+   0,2,0,4,0,2,4,0,0,0,0,0,0,2,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,
+   0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
+   4,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,2,0,0,0,0,0,2,0,0,0,4,0,0,0,
+   0,0,0,0,0,0,3,0,0,0,0,0,4,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,2,4,2,0,0,0,0,0,0,2,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ,
+
+[ 0,0,0,0,0,2,0,4,0,0,0,0,0,0,0,0,
+   0,4,0,0,0,2,4,0,2,0,0,0,0,2,0,0,
+   0,0,0,0,0,4,0,0,4,0,0,0,0,0,0,0,
+   2,2,2,2,4,0,3,4,2,2,4,0,0,0,0,0,
+   0,0,0,0,0,4,0,0,4,0,0,0,0,0,0,0,
+   0,0,2,0,0,0,4,0,0,0,0,0,4,0,0,0,
+   0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,
+   0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+   0,0,0,0,0,0,1,0,0,0,0,1,2,0,2,0,
+   0,1,0,0,0,0,2,0,0,0,0,0,1,0,1,0,
+   0,0,0,0,0,1,2,2,0,0,0,0,0,0,0,0,
+   0,2,2,0,0,0,0,1,0,0,0,1,0,0,0,0,
+   0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,
+   0,0,2,0,0,0,1,0,0,0,0,3,0,0,0,0,
+   0,0,0,1,2,2,0,0,0,0,0,0,0,0,0,0,
+   0,0,1,0,0,1,0,2,1,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0,
+   0,0,0,0,0,4,2,0,0,0,0,4,0,0,0,0,
+   0,0,0,0,4,0,0,2,4,4,2,0,4,0,0,0,
+   0,0,0,0,4,2,2,4,0,4,0,0,4,0,0,0,
+   0,0,0,0,4,2,4,0,3,4,0,2,4,0,0,0,
+   0,0,0,0,4,0,0,4,0,4,2,2,4,0,0,0,
+   0,0,0,0,0,4,0,0,4,4,4,4,0,0,0,0,
+   0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0] ,
+
+[ 0,0,0,0,2,0,0,1,0,0,0,4,0,0,0,2,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+   4,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,
+   3,0,4,0,0,0,0,0,0,0,0,0,0,4,0,0,
+   4,0,0,0,0,0,2,0,0,0,0,0,0,2,4,0,
+   0,0,2,0,0,0,0,0,0,0,0,0,0,4,0,0,
+   0,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,
+   0,0,0,0,0,0,4,0,0,0,0,0,0,2,0,0,
+   0,2,0,0,0,0,0,0,0,0,0,0,0,0,4,0] ,
+
+[ 3,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,
+   0,0,0,4,0,0,0,0,0,0,0,0,0,0,2,0,
+   0,0,4,0,0,2,0,4,0,0,0,0,0,0,0,4,
+   0,4,0,0,4,0,0,0,4,0,0,2,0,4,0,0,
+   0,0,2,4,0,0,4,0,0,4,0,0,0,0,0,0,
+   0,4,4,0,0,0,0,4,0,0,0,4,0,0,0,0,
+   0,0,4,0,0,2,0,0,4,0,0,0,0,0,4,0,
+   4,0,0,4,0,0,4,0,0,2,0,0,0,2,0,0,
+   0,4,2,0,0,4,0,0,0,0,1,0,0,0,0,0,
+   0,0,4,0,0,2,0,4,0,0,0,0,0,0,0,0] ,
+
+[ 3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+   0,0,0,4,0,0,0,0,4,0,0,0,4,0,2,0,
+   0,0,0,0,0,0,4,4,0,4,0,0,0,4,0,0,
+   0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,
+   0,0,0,0,4,0,0,0,0,0,2,0,0,0,0,0,
+   4,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+   0,0,0,0,1,2,2,1,0,0,0,0,0,0,0,0,
+   4,0,0,0,4,4,2,4,0,0,0,4,0,0,0,0] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,4,0,0,0,0,0,4,4,0,0,
+   0,0,0,0,4,0,2,0,0,0,0,0,2,1,4,0,
+   0,0,0,0,0,0,0,0,1,2,0,4,0,0,0,0,
+   0,4,2,0,0,0,0,0,0,0,0,0,2,4,0,0,
+   0,4,2,4,0,3,0,1,0,0,2,0,4,0,0,0,
+   0,0,0,0,4,0,0,0,0,0,4,4,0,0,0,0,
+   0,0,0,2,2,4,0,4,0,0,2,0,0,0,4,0,
+   0,0,4,0,0,0,0,0,0,1,4,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0] ,
+
+[ 0,0,4,4,0,2,0,0,0,2,0,1,1,0,0,0,
+   0,0,0,0,0,4,0,0,0,4,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,2,0,0,1,0,0,2,0,0,0,0,0,
+   0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,
+   0,0,0,4,2,0,2,0,2,0,2,1,0,0,0,0,
+   0,0,0,0,4,4,2,0,2,1,1,0,0,0,0,0,
+   0,0,0,0,1,0,1,4,1,0,1,0,0,0,0,0,
+   0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0] ,
+
+ [ 0,4,0,0,0,0,0,0,0,0,0,0,0,1,2,2,
+   0,3,2,0,0,0,0,0,0,0,0,0,2,1,4,0,
+   0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
+   0,4,0,1,0,0,2,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+   0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
+   4,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0] ,
+
+ [ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,2,4,4,4,0,4,4,4,4,0,0,0,0,0,
+   0,0,4,2,0,0,2,4,0,0,2,4,4,0,0,0,
+   0,4,0,0,0,0,0,4,0,0,0,0,0,4,0,0,
+   0,4,2,0,0,0,0,4,0,0,0,0,0,0,4,0,
+   0,4,0,0,0,0,0,4,0,0,3,0,0,0,4,0,
+   0,4,0,0,0,0,0,4,0,0,0,0,2,4,0,0,
+   0,0,4,2,0,0,0,4,0,0,0,4,4,0,0,0,
+   0,0,0,4,4,4,0,4,4,4,4,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ,
+
+[ 0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,4,
+   0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,3,0,0,4,0,4,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,4,0,0,0,0,0,0,0,0,0,0,2,4,2,
+   0,0,2,0,0,0,0,0,4,1,0,0,0,0,0,0,
+   0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,
+   0,4,2,0,0,0,0,0,0,0,2,0,0,0,0,0,
+   2,0,0,0,0,0,0,0,0,2,4,0,0,0,0,2,
+   0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,4,
+   4,0,2,4,0,2,0,0,0,0,0,0,0,0,0,0,
+   0,0,2,2,0,0,0,0,0,2,0,0,0,0,0,0,
+   0,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,
+   0,0,2,0,0,0,0,0,0,4,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,
+   2,4,0,0,0,0,0,0,0,2,0,0,0,0,0,0] ,
+
+[ 0,4,0,0,0,0,0,2,2,2,0,0,0,4,2,2,
+   0,0,0,1,0,2,0,0,0,0,4,0,0,1,2,2,
+   0,0,0,0,0,0,0,0,0,0,0,0,4,4,2,2,
+   0,0,0,0,0,0,0,0,0,1,0,1,0,4,2,2,
+   0,0,0,0,1,4,1,0,0,0,0,1,0,4,2,2,
+   0,0,0,0,0,0,1,0,0,0,0,0,0,4,2,2,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,
+   1,1,0,1,0,0,0,0,0,0,1,1,0,4,2,2,
+   1,3,0,4,0,0,4,2,1,0,0,0,0,4,1,2,
+   1,1,1,1,0,0,0,0,0,0,1,1,1,4,2,2] ,
+
+[ 2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,
+   2,1,2,2,2,2,2,2,2,2,4,4,2,2,1,1,
+   1,1,2,4,1,1,2,1,1,1,2,1,1,2,1,1,
+   2,4,2,4,1,4,2,4,1,1,2,1,1,2,1,2,
+   2,1,2,1,1,1,4,1,1,1,2,1,1,4,2,2,
+   2,4,2,2,2,4,3,4,2,2,2,4,4,4,2,2,
+   1,1,2,1,4,1,4,1,1,1,2,1,1,4,1,2,
+   4,4,2,4,4,4,2,4,1,1,2,2,2,2,2,2,
+   2,1,2,1,1,1,2,1,1,1,2,1,1,1,1,1,
+   2,1,2,2,2,2,2,2,4,2,4,4,4,4,4,1] ,
+
+[ 3,0,0,0,0,0,0,0,2,4,0,0,0,0,0,2,
+   0,1,2,1,0,1,0,1,0,1,0,1,0,1,4,1,
+   4,0,0,0,0,0,0,0,0,0,0,4,2,0,0,0,
+   0,1,4,1,0,1,0,1,4,1,0,1,0,1,0,1,
+   0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+   0,1,0,1,0,1,0,1,4,1,0,1,0,1,0,1,
+   0,4,0,0,2,0,0,0,2,0,0,0,0,0,0,4,
+   0,1,0,1,4,1,0,1,4,1,0,1,4,1,0,1,
+   2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,1,0,1,4,1,0,1,4,1,0,1,0,1,0,1] ,
+
+[ 0,0,0,2,4,2,0,0,0,0,2,0,0,0,0,0,
+   0,0,0,0,4,0,0,0,0,0,4,4,0,0,0,0,
+   0,0,0,4,2,0,0,0,0,0,2,0,0,0,1,0,
+   2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,
+   4,0,0,0,2,0,0,0,0,0,2,0,0,0,1,0,
+   2,0,0,0,4,4,0,0,0,0,2,0,0,0,0,0,
+   4,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,
+   2,4,2,4,2,4,2,4,3,4,2,4,2,4,2,2,
+   0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0] ,
+
+[ 0,0,2,4,0,0,0,4,4,1,0,2,0,0,0,0,
+   0,0,0,4,0,0,4,1,0,4,1,4,4,0,0,0,
+   0,4,4,0,4,0,0,0,0,0,0,0,0,4,0,0,
+   0,0,4,0,0,0,0,1,2,1,0,0,0,4,0,0,
+   0,4,0,4,0,0,0,2,1,2,0,0,3,0,4,0,
+   0,1,0,1,0,4,0,1,2,1,0,0,0,0,4,0,
+   1,1,4,0,0,4,0,4,0,0,0,0,0,0,4,0,
+   0,1,0,0,0,0,0,0,0,0,0,0,4,4,0,0,
+   0,0,4,0,0,0,0,4,4,4,0,0,0,0,0,0,
+   0,0,0,0,2,0,0,0,0,0,0,2,0,0,0,0] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,
+   0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,1,2,0,0,0,3,0,0,0,1,0,0,0,
+   4,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,
+   0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0] ,
+
+[ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+   0,0,0,0,0,0,0,0,4,4,0,0,0,0,4,0,
+   0,0,0,0,4,4,0,4,2,2,4,4,0,0,2,0,
+   0,0,0,4,2,2,4,0,0,0,2,2,4,0,0,0,
+   0,0,4,2,0,0,2,4,2,0,0,0,2,4,2,4,
+   0,0,4,2,0,0,2,4,2,0,3,0,2,4,0,0,
+   0,0,0,4,2,2,4,0,0,0,2,2,4,0,0,0,
+   0,0,0,0,4,4,0,4,2,2,4,4,0,0,2,0,
+   0,0,0,0,0,0,0,0,4,4,0,0,0,0,4,0,
+   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ,
+
+[ 3,0,1,1,1,0,1,0,0,0,0,1,0,0,0,0,
+    0,0,0,1,0,0,1,1,0,0,1,1,1,0,0,0,
+    0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,0,
+    0,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0,
+    0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+    0,0,0,0,1,0,0,0,1,1,0,0,1,1,0,0,
+    0,0,0,1,1,1,0,1,0,1,0,1,2,1,0,0,
+    0,0,0,1,0,0,0,1,0,1,0,1,2,1,0,0,
+    0,0,0,0,1,0,0,1,0,1,0,0,1,1,0,0,
+    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ]
+
+];
+</script>
+</body>
+</html>
