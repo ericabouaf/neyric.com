@@ -5,11 +5,6 @@
             <img src="https://www.gravatar.com/avatar/c7d946263af555b019f71f336da1caf9?s=50" alt='Profile Picture' />
             <strong><%= config.author %></strong>
         </a>
-        <% if(config.description) { %>
-        <p>
-          <%= config.description %>
-        </p>
-        <% } %>
     </li>
   </ul>
   <ul>
@@ -24,3 +19,9 @@
     <li><a href="https://www.linkedin.com/in/ericabouaf" title="Eric's LinkedIn profile"><%- partial('_partial/icons/linkedin') %></a></li>
   </ul>
 </nav>
+
+<% if(config.description) { %>
+<p>
+    <%= config.description %>
+</p>
+<% } %>

@@ -25,3 +25,10 @@ span.category-list-count {
     font-size: 75%;
     margin-left: 5px;
 }
+
+/* Pagination */
+
+nav.pagination {
+    max-width: 350px;
+    margin: auto;
+}
