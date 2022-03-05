@@ -1,9 +1,8 @@
 title: Ultimate Web Developer Lists
 tags:
 - links
-id: 29
 categories:
-- Web development
+- [Software, Web development]
 date: 2006-10-15 12:14:55
 lang: en
 ---

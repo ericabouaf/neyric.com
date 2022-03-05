@@ -3,6 +3,7 @@ categories:
 - Uncategorized
 date: 2010-11-28 15:32:40
 lang: fr
+thumbnail: http://www.harvard-air-taxi.com/Welcome-pic.jpg 
 ---
 
 Bienvenue à _Harvard Air Taxi !_

@@ -1,7 +1,6 @@
 title: Web experience with a PSP
-id: 18
 categories:
-- Web development
+- [Software, Web development]
 date: 2006-10-14 19:31:45
 tags:
 lang: en

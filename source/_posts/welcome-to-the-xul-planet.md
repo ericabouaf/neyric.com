@@ -1,9 +1,8 @@
 title: Welcome to the XUL Planet
 tags:
 - xul
-id: 22
 categories:
-- Web development
+- [Software, Web development]
 date: 2006-10-14 19:35:28
 lang: en
 ---

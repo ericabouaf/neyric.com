@@ -1,7 +1,6 @@
 title: 'Slidy: Slide Shows in XHTML'
-id: 21
 categories:
-- Web development
+- [Software, Web development]
 date: 2006-10-14 19:34:39
 tags:
 lang: en

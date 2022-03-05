@@ -1,8 +1,6 @@
 title: Get rid of favicon.ico 404 errors with rails
 tags:
 - error
-- favicon.ico
-id: 59
 categories:
 - [Software, Ruby on Rails]
 date: 2007-07-07 17:29:01

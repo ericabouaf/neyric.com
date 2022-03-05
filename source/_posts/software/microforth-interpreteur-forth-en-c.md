@@ -1,6 +1,5 @@
 title: Microforth, étude d'un interpréteur forth. (C standard)
 tags:
-- forth
 categories:
 - [Software, Forth]
 - [Software, C]
