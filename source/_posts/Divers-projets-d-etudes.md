@@ -28,11 +28,3 @@ lang: fr
 *   [Rapport du projet (rapport_compilo.pdf 122Ko)](/files/comp/compilateurs/rapport_compilo.pdf)
 
 *   <a>Les sources bientôt disponibles</a>
-
-<u>**Microforth**</u>, programmation d'un interpreteur forth. (C standard)
-
-*   [Rapport du projet (microforth.pdf 179Ko)](/files/comp/forth/microforth.pdf)
-
-*   [Sources (microforth.tar.gz 6Ko)](/files/comp/forth/microforth.tar.gz)
-
-*   [Qu'est-ce que le forth ? (http://www.forth.org)](http://www.forth.org/)
