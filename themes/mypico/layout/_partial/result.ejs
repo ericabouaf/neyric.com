@@ -1,5 +1,7 @@
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-    <%- partial('post/date', {item: item, type: "archive"}) %>
+
+    <time itemprop="datePublished" datetime="<%= item.date.toDate().toISOString() %>"><%= date(item.date) %></time>
+
     <br />
     <%- partial('post/tag', {item: item}) %>
     <%- partial('post/categories', {item: item}) %>

@@ -1,7 +1,5 @@
 <article itemscope itemtype="http://schema.org/BlogPosting">
-    <div>
-        <%- partial('_partial/post/date', {type: "post", item: page}) %>
-    </div>
+    <time itemprop="datePublished" datetime="<%= page.date.toDate().toISOString() %>"><%= date(page.date) %></time>
 
     <h1 itemprop="name"><%= page.title %></h1>
 
