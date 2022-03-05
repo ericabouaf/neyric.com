@@ -1,8 +1,8 @@
 title: Some RDF links
 tags:
-- links
 - rdf
-- Uncategorized
+categories:
+- [Software, Semantic Web]
 date: 2005-07-04 02:00:00
 lang: fr
 ---

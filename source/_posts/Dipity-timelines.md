@@ -1,5 +1,5 @@
 title: Dipity timelines
-tags:
+categories:
 - Uncategorized
 date: 2008-05-02 12:21:38
 lang: fr

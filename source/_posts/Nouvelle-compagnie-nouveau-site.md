@@ -1,5 +1,5 @@
 title: 'Nouvelle compagnie, nouveau site'
-tags:
+categories:
 - Uncategorized
 date: 2010-11-28 15:32:40
 lang: fr
