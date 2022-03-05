@@ -77,3 +77,9 @@ deploy:
   bucket: "neyric.com"
   region: eu-west-1
   headers: {CacheControl: 'max-age=604800, public'}
+
+excerpt:
+  depth: 2
+  excerpt_excludes: [h2, img]
+  more_excludes: []
+  hideWholePostExcerpts: true
