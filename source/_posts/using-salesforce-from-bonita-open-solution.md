@@ -3,7 +3,6 @@ tags:
 - BPM
 - Salesforce
 - workflow
-id: 182
 categories:
 - [Software, Java]
 date: 2010-12-20 18:08:58

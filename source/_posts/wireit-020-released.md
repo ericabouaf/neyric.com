@@ -1,7 +1,6 @@
 title: WireIt 0.2.0 released
 tags:
 - yui
-id: 134
 categories:
 - [Projects, WireIt]
 - [Software, Javascript]

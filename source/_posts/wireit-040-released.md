@@ -3,7 +3,6 @@ tags:
 - smd
 - yui
 - xproc
-id: 145
 categories:
 - [Projects, WireIt]
 - [Software, Javascript]

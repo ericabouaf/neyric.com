@@ -2,7 +2,6 @@ title: YUI improved Ajax
 tags:
 - library
 - yui
-id: 119
 categories:
 - [Software, Javascript]
 date: 2006-10-14 19:28:01

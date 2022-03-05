@@ -3,7 +3,6 @@ tags:
 - library
 - wiring
 - yui
-id: 135
 categories:
 - [Projects, WireIt]
 - [Software, Javascript]

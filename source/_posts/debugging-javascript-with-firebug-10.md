@@ -2,7 +2,6 @@ title: Debugging Javascript with Firebug 1.0
 tags:
 - debugging
 - firebug
-id: 122
 date: 2007-02-01 15:10:11
 lang: en
 ---

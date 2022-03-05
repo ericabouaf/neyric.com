@@ -1,7 +1,6 @@
 title: Google Gears performances issue
 tags:
 - Google Gears
-id: 132
 categories:
 - [Projects, Gears In Motion]
 - [Software, Javascript]

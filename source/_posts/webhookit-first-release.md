@@ -2,7 +2,6 @@ title: WebHookIt first release - developer preview
 tags:
 - webhooks
 - yui
-id: 234
 categories:
 - [Projects, WireIt]
 - [Projects, WebHookIt]

@@ -1,5 +1,4 @@
 title: Gears In Motion v0.2 released
-id: 130
 tags:
 - Google Gears
 categories:

@@ -1,7 +1,6 @@
 title: 'YUI Builder: to use or not to use ? Use yproject !'
 tags:
 - yui
-id: 215
 categories:
 - [Projects, yproject]
 - [Software, Javascript]

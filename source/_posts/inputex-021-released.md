@@ -1,5 +1,4 @@
 title: inputEx 0.2.1 released
-id: 142
 categories:
 - [Projects, inputEx]
 - [Software, Javascript]

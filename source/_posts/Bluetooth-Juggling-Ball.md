@@ -1,6 +1,5 @@
 title: Bluetooth Juggling Ball
 tags:
-- ball
 - bluetooth
 categories:
 - [Projects, Bluetooth Juggling Ball]

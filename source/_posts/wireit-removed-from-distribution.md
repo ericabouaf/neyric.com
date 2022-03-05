@@ -1,5 +1,4 @@
 title: WireIt removed from distribution
-id: 137
 categories:
 - [Projects, WireIt]
 - [Software, Javascript]

@@ -1,5 +1,4 @@
 title: WireIt 0.5.0
-id: 146
 tags:
 - yui
 categories:

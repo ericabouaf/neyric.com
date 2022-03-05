@@ -1,5 +1,4 @@
 title: 'Hello world !'
-id: 1
 categories:
 - Uncategorized
 date: 2010-08-22 13:07:54

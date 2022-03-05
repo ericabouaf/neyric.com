@@ -3,7 +3,6 @@ tags:
 - Google Gears
 categories:
 - [Software, Javascript]
-id: 9
 date: 2008-01-03 14:06:22
 lang: en
 ---

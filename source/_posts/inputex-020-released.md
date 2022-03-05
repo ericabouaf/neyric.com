@@ -1,7 +1,6 @@
 title: inputEx 0.2.0 released
 tags:
 - yui
-id: 140
 categories:
 - [Projects, inputEx]
 - [Software, Javascript]

@@ -1,7 +1,7 @@
 title: Javascript Coding rules
 tags:
-- javascript
-id: 126
+categories:
+- [Software, Javascript]
 date: 2007-02-01 15:37:53
 lang: en
 ---

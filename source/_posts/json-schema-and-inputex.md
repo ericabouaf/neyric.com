@@ -2,7 +2,6 @@ title: JSON Schema and inputEx
 tags:
 - JSON Schema
 - Persevere
-id: 143
 categories:
 - [Projects, inputEx]
 - [Software, Javascript]

@@ -2,7 +2,6 @@ title: Autocompletion with Rails and Scriptaculous
 tags:
 - ajax
 - scriptaculous
-id: 30
 categories:
 - [Software, Javascript]
 - [Software, Ruby on Rails]
