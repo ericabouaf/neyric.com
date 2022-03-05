@@ -1,7 +1,8 @@
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <%- partial('post/date', {item: item, type: "archive"}) %>
     <br />
-    <%- partial('post/tag', {item: item, type: "archive"}) %>
+    <%- partial('post/tag', {item: item}) %>
+    <%- partial('post/categories', {item: item}) %>
 
     <h2 itemprop="name">
       <a href="<%- url_for(item.path) %>">
