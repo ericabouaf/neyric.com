@@ -4,6 +4,10 @@
     <h1 itemprop="name"><%= page.title %></h1>
 
     <div itemprop="articleBody"><%- page.content %></div>
+
+    <hr />
+    <%- partial('_partial/post/tag', {item: page}) %>
+    <%- partial('_partial/post/categories', {item: page}) %>
 </article>
 
 <% if(config.disqus_shortname && page.comments) { %>

@@ -1,5 +1,10 @@
-<% if(item.categories && item.categories.data && item.categories.data.length) { %>
+<% if(item.categories) { %>
   <div>
-    Categories: <%= item.categories.data[0].name %>
+    Categories :
+    <%- list_categories(item.categories, {
+        style: false,
+        show_count: false,
+        depth: 0
+    }) %>
   </div>
 <% } %>

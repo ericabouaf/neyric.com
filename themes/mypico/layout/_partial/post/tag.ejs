@@ -1,11 +1,10 @@
-<% if(item.tags && item.tags.length) { %>
- <%
-  var tags = [];
-  item.tags.forEach(function(tag){
-    tags.push('<a href="' + config.root + tag.path + '">' + tag.name + '</a>');
-  });
- %>
+<% if(item.tags) { %>
  <div>
-   <%- tags.join(', ') %>
+    Tags :
+   <%- list_tags(item.tags, {
+           style: false,
+           show_count: false,
+           depth: 0
+       }) %>
  </div>
 <% } %>
