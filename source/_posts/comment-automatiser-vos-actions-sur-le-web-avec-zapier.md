@@ -1,6 +1,8 @@
 title: Comment automatiser vos actions sur le web avec Zapier
 tags:
-- automatisation digitale 
+- zapier
+categories:
+- [Software, Automation]
 date: 2017-11-12 22:10:00
 lang: fr
 ---

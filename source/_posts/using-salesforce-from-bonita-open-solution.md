@@ -1,6 +1,6 @@
 title: Using Salesforce from Bonita Open Solution
 tags:
-- bpm
+- BPM
 - Salesforce
 - workflow
 id: 182

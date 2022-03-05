@@ -2,24 +2,29 @@
 <div class="grid">
 
     <section>
+
+        <% if (page.title) { %>
+            <h1>Title: <%- page.title %></h1>
+        <% } else if (is_category()) { %>
+            <h1><%- page.category %></h1>
+        <% } else if (is_tag()) { %>
+            <h1><%- page.tag %></h1>
+        <% } else { %>
+            <h1>No title ?</h1>
+        <% } %>
+
         <div itemscope itemtype="http://schema.org/Blog">
         <% page.posts.each(function(item){ %>
           <%- partial('_partial/result', {item: item}) %>
         <% }); %>
         </div>
 
+        <% if (page.prev_link || page.next_link) { %>
         <nav>
-            <% if(page.prev){ %>
-                <a href="<%- config.root %><%- page.prev_link %>">
-                  <%= __('prev') %>
-                </a>
-            <% } %>
-            <% if(page.next){ %>
-                <a href="<%- config.root %><%- page.next_link %>">
-                  <%= __('next') %>
-                </a>
-            <% } %>
+            <%- paginator() %>
         </nav>
+        <% } %>
+
     </section>
 
     <%- partial('_partial/aside') %>

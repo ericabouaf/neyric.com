@@ -7,7 +7,7 @@ id: 234
 categories:
 - [Projects, WireIt]
 - [Projects, WebHookIt]
-- [Software, Javascript, Node.js]
+- [Software, Node.js]
 date: 2011-01-29 19:47:35
 lang: en
 ---

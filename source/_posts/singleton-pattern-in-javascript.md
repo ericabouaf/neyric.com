@@ -1,8 +1,5 @@
 title: Singleton pattern in Javascript
 tags:
-- javascript
-- pattern
-- singleton
 categories:
 - [Software, Javascript]
 - [Software, Design Patterns]
