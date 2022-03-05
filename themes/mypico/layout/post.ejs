@@ -12,7 +12,7 @@
 
 <% if(config.disqus_shortname && page.comments) { %>
 <section id="comment">
-    <h1>Comments</h1>
+    <h2><%= __('comment') %></h2>
     <div id="disqus_thread" aria-live="polite"><%- partial('_partial/post/disqus_thread')%></div>
 </section>
 <% } %>

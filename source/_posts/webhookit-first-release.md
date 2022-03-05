@@ -1,6 +1,5 @@
 title: WebHookIt first release - developer preview
 tags:
-- http
 - webhooks
 - yui
 id: 234
