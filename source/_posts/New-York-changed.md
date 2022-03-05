@@ -3,6 +3,7 @@ date: 2008-05-09 20:23:02
 lang: fr
 categories:
 - Uncategorized
+cover: http://farm3.static.flickr.com/2089/2477900109_a14e832257.jpg?v=0
 ---
 
 Pierre est à New York ? Vous ne savez pas qui est Pierre ?
