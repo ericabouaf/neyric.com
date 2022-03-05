@@ -1,8 +1,8 @@
 title: WireIt removed from distribution
 id: 137
 categories:
-  - WireIt
-  - YUI Library
+- [Projects, WireIt]
+- [Software, Javascript]
 date: 2008-06-19 09:32:01
 tags:
 lang: en

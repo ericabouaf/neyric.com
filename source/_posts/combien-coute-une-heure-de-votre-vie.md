@@ -1,6 +1,7 @@
 title: Combien coûte une heure de votre vie ?
 tags:
- - gestion du temps
+categories:
+- [Personal Development, Time Management]
 date: 2018-01-17 22:10:00
 lang: fr
 ---

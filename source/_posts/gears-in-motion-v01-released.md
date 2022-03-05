@@ -1,10 +1,11 @@
 title: Gears in motion v0.1 released
 id: 15
-categories:
-  - Gears In Motion
-  - Google Gears
-date: 2007-08-23 12:06:29
 tags:
+- Google Gears
+categories:
+- [Projects, Gears In Motion]
+- [Software, Javascript]
+date: 2007-08-23 12:06:29
 lang: en
 ---
 

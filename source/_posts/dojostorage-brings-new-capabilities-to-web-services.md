@@ -1,12 +1,12 @@
 title: dojo.storage brings new capabilities to web services
 tags:
-  - ajax
-  - dojo
-  - javascript
-  - offline
+- ajax
+- dojo
+- javascript
+- offline
 id: 44
 categories:
-  - Javascript
+- [Software, Javascript]
 date: 2007-02-01 16:00:22
 lang: en
 ---

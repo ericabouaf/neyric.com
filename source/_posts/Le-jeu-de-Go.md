@@ -1,6 +1,6 @@
 title: Le jeu de Go
-tags:
-  - Jeu de Go
+categories:
+- [Hobbies, Go]
 date: 2005-05-08 03:01:00
 lang: fr
 ---

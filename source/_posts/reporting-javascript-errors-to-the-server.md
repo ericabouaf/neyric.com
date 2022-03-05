@@ -1,10 +1,9 @@
 title: Reporting javascript errors to the server
 tags:
-  - error
-  - yui
+- yui
 id: 128
 categories:
-  - Javascript
+- [Software, Javascript]
 date: 2007-04-26 13:12:13
 lang: en
 ---

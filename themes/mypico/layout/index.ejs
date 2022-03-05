@@ -1,18 +1,26 @@
-<div itemscope itemtype="http://schema.org/Blog">
-<% page.posts.each(function(item){ %>
-  <%- partial('_partial/result', {item: item}) %>
-<% }); %>
-</div>
 
-<nav>
-    <% if(page.prev){ %>
-        <a href="<%- config.root %><%- page.prev_link %>">
-          <%= __('prev') %>
-        </a>
-    <% } %>
-    <% if(page.next){ %>
-        <a href="<%- config.root %><%- page.next_link %>">
-          <%= __('next') %>
-        </a>
-    <% } %>
-</nav>
+<div class="grid">
+
+    <section>
+        <div itemscope itemtype="http://schema.org/Blog">
+        <% page.posts.each(function(item){ %>
+          <%- partial('_partial/result', {item: item}) %>
+        <% }); %>
+        </div>
+
+        <nav>
+            <% if(page.prev){ %>
+                <a href="<%- config.root %><%- page.prev_link %>">
+                  <%= __('prev') %>
+                </a>
+            <% } %>
+            <% if(page.next){ %>
+                <a href="<%- config.root %><%- page.next_link %>">
+                  <%= __('next') %>
+                </a>
+            <% } %>
+        </nav>
+    </section>
+
+    <%- partial('_partial/aside') %>
+</div>

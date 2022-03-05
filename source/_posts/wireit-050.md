@@ -1,10 +1,11 @@
 title: WireIt 0.5.0
 id: 146
-categories:
-  - WireIt
-  - YUI Library
-date: 2009-08-11 09:04:00
 tags:
+- yui
+categories:
+- [Projects, WireIt]
+- [Software, Javascript]
+date: 2009-08-11 09:04:00
 lang: en
 ---
 

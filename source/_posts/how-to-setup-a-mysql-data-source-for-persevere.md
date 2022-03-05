@@ -1,11 +1,10 @@
 title: How to setup a mysql data source for Persevere
 tags:
-  - mysql
-  - Persevere
-  - serverside
+- mysql
+- Persevere
 id: 138
 categories:
-  - Server-side javascript
+- [Software, Javascript]
 date: 2008-07-31 15:29:36
 lang: en
 ---

@@ -1,13 +1,10 @@
 title: inputEx 0.7.0 release and Roadmap
 tags:
-  - inputEx
-  - yui
-  - yui3
+- yui
 id: 206
 categories:
-  - inputEx
-  - Projects
-  - YUI Library
+- [Projects, inputEx]
+- [Software, Javascript]
 date: 2011-01-07 11:00:55
 lang: en
 ---

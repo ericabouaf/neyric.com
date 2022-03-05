@@ -1,10 +1,9 @@
 title: Building Google Gears 0.3.2.0
 tags:
-  - gears
-  - google
-id: 9
+- Google Gears
 categories:
-  - Google Gears
+- [Software, Javascript]
+id: 9
 date: 2008-01-03 14:06:22
 lang: en
 ---

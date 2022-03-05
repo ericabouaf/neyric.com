@@ -1,6 +1,6 @@
 title: "Divers projets d'études"
 tags:
-  - PC et réseaux
+- PC et réseaux
 date: 2006-06-07 16:38:36
 lang: fr
 ---

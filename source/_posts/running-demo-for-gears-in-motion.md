@@ -1,11 +1,9 @@
 title: Running demo for Gears In Motion
 tags:
-  - gears
-  - Gears In Motion
-  - google
+- Google Gears
 id: 131
 categories:
-  - Gears In Motion
+- [Projects, Gears In Motion]
 date: 2007-10-17 14:04:09
 lang: en
 ---

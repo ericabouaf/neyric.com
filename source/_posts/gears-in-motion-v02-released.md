@@ -1,9 +1,11 @@
 title: Gears In Motion v0.2 released
 id: 130
-categories:
-  - Gears In Motion
-date: 2007-10-12 17:01:43
 tags:
+- Google Gears
+categories:
+- [Projects, Gears In Motion]
+- [Software, Javascript]
+date: 2007-10-12 17:01:43
 lang: en
 ---
 

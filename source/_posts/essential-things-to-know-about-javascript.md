@@ -1,7 +1,7 @@
 title: Essential things to know about Javascript
 date: 2007-02-01 15:32:00
 tags:
- - javascript
+- javascript
 lang: en
 ---
 

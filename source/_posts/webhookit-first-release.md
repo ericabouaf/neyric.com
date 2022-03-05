@@ -1,18 +1,13 @@
 title: WebHookIt first release - developer preview
 tags:
-  - http
-  - nodejs
-  - webhookit
-  - webhooks
-  - WireIt
+- http
+- webhooks
+- yui
 id: 234
 categories:
-  - Node.js
-  - Server-side javascript
-  - Uncategorized
-  - WebHookIt
-  - WireIt
-  - YUI Library
+- [Projects, WireIt]
+- [Projects, WebHookIt]
+- [Software, Javascript, Node.js]
 date: 2011-01-29 19:47:35
 lang: en
 ---

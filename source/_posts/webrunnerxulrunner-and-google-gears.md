@@ -1,9 +1,9 @@
 title: WebRunner/XulRunner and Google Gears
-id: 129
-categories:
-  - Google Gears
-date: 2007-10-12 11:41:26
 tags:
+- Google Gears
+categories:
+- [Software, Javascript]
+date: 2007-10-12 11:41:26
 lang: en
 ---
 

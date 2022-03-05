@@ -1,12 +1,12 @@
 title: WireIt version 0.2.1
 tags:
-  - javascript
-  - library
-  - WireIt
-  - wiring
+- library
+- wiring
+- yui
 id: 135
 categories:
-  - WireIt
+- [Projects, WireIt]
+- [Software, Javascript]
 date: 2008-01-26 16:04:11
 lang: en
 ---

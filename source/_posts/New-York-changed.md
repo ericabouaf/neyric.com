@@ -1,8 +1,8 @@
 title: New York changed
-tags:
-  - Other
 date: 2008-05-09 20:23:02
 lang: fr
+categories:
+- Uncategorized
 ---
 
 Pierre est à New York ? Vous ne savez pas qui est Pierre ?

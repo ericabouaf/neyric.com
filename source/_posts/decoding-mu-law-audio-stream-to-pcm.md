@@ -1,11 +1,10 @@
 title: Decoding mu-law audio stream to PCM
 tags:
-  - audio
-  - decode
-  - pcm
-id: 23
+- audio
+- decode
+- pcm
 categories:
-  - Programming
+- [Software, C]
 date: 2006-10-14 19:35:48
 lang: en
 ---

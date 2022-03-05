@@ -1,13 +1,11 @@
 title: inputEx coming real soon
 tags:
-  - form
-  - input
-  - inputEx
-  - library
-  - yui
-id: 69
+- form
+- library
+- yui
 categories:
-  - inputEx
+- [Projects, inputEx]
+- [Software, Javascript]
 date: 2008-02-07 10:26:27
 lang: en
 ---

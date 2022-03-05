@@ -1,9 +1,9 @@
 title: 'AFLAX: The AJAX Library for the Adobe Flash Platform'
 tags:
-  - Flash
+- flash
 id: 127
 categories:
-  - Flash
+- [Software, Javascript]
 date: 2007-02-01 15:53:50 
 lang: en
 ---

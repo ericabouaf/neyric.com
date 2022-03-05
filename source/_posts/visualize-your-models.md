@@ -1,10 +1,8 @@
 title: Visualize your models
 tags:
-  - plugin
-  - rails
-id: 31
+- graphviz
 categories:
-  - Ruby on Rails
+- [Software, Ruby on Rails]
 date: 2006-10-24 17:43:16
 lang: en
 ---

@@ -1,11 +1,9 @@
 title: Model validation with Rails
 tags:
-  - model
-  - rails
-  - validation
-id: 24
+- model
+- validation
 categories:
-  - Ruby on Rails
+- [Software, Ruby on Rails]
 date: 2006-10-14 19:56:47
 lang: en
 ---

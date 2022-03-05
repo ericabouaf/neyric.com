@@ -1,11 +1,8 @@
 title: How to set up a development environment for J2ME
 tags:
-  - development
-  - environment
-  - j2me
-id: 17
+- j2me
 categories:
-  - Java
+- [Software, Java]
 date: 2006-10-17 16:17:23
 lang: en
 ---

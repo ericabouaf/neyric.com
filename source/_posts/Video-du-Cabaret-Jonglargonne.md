@@ -1,10 +1,8 @@
 title: Vidéo du Cabaret Jonglargonne
 tags:
-  - cabaret
-  - jonglage
-  - jonglargonne
-  - Juggling Videos
-  - video
+- video
+categories:
+- [Hobbies, Juggling]
 date: 2007-03-28 16:50:38
 lang: fr
 ---

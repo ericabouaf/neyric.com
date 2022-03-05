@@ -1,6 +1,8 @@
 title: 1 day 1 trick
 tags:
-  - 1day1trick
+- video
+categories:
+- [Hobbies, Juggling]
 date: 2006-05-05 16:44:41
 lang: fr
 ---

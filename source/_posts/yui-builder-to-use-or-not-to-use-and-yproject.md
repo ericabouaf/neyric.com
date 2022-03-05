@@ -1,14 +1,10 @@
 title: 'YUI Builder: to use or not to use ? Use yproject !'
 tags:
-  - yproject
-  - yui-builder
-  - yui3
+- yui
 id: 215
 categories:
-  - Javascript
-  - Node.js
-  - yproject
-  - YUI Library
+- [Projects, yproject]
+- [Software, Javascript]
 date: 2011-01-16 12:41:04
 lang: en
 ---

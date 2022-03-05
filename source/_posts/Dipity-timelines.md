@@ -1,6 +1,6 @@
 title: Dipity timelines
 tags:
-  - Uncategorized
+- Uncategorized
 date: 2008-05-02 12:21:38
 lang: fr
 ---

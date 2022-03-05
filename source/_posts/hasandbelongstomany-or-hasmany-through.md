@@ -1,11 +1,7 @@
 title: 'has_and_belongs_to_many or has_many :through?'
 tags:
-  - has_and_belongs_to_many
-  - rails
-  - through
-id: 45
 categories:
-  - Ruby on Rails
+- [Software, Ruby on Rails]
 date: 2007-02-10 17:51:19
 lang: en
 ---

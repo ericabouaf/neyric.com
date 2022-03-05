@@ -1,16 +1,15 @@
 <%- partial('_partial/head') %>
 
 <body>
-    <header>
+    <header class="container">
         <%- partial('_partial/header') %>
     <header>
 
-    <main>
+    <main class="container">
         <%- body %>
     </main>
 
-    <footer>
-        <div><%- list_categories() %></div>
+    <footer class="container">
         Copyright © 2000-<%= moment().year() %> - <%- config.author %>
     </footer>
 

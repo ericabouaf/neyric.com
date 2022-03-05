@@ -1,12 +1,12 @@
 title: 'inputEx 0.2.2, SMD and YUI-RPC'
 tags:
-  - inputEx
-  - jsonschema
-  - smd
+- JSON Schema
+- smd
+- yui
 id: 144
 categories:
-  - inputEx
-  - YUI Library
+- [Projects, inputEx]
+- [Software, Javascript]
 date: 2009-03-06 22:27:14
 lang: en
 ---

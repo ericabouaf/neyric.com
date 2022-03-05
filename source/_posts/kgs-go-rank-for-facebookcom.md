@@ -1,14 +1,9 @@
 title: KGS Go Rank for Facebook.com
 tags:
-  - facebook
-  - game
-  - go
-  - graph
-  - kgs
-  - rank
-id: 62
+- facebook
+- kgs
 categories:
-  - Projects
+- [Hobbies, Go]
 date: 2007-08-22 10:31:00
 lang: en
 ---

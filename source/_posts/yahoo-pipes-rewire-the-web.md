@@ -1,12 +1,10 @@
 title: 'Yahoo! Pipes : Rewire the web'
 tags:
-  - editor
-  - mashup
-  - pipes
-  - yahoo
-id: 46
+- mashup
+- pipes
+- yahoo
 categories:
-  - Javascript
+- [Software, Javascript]
 date: 2007-02-16 16:30:34
 lang: en
 ---

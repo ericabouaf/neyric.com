@@ -1,10 +1,10 @@
 title: Vidéos de jonglage
 tags:
-  - juggling
-  - Juggling Videos
-  - video
+- video
 date: 2005-06-28 02:52:00
 lang: fr
+categories:
+- [Hobbies, Juggling]
 ---
 
 Voici quelques vidéos de jonglage en vrac.

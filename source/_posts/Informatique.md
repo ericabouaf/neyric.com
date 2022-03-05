@@ -1,6 +1,6 @@
 title: Informatique
 tags:
-  - Informatique
+- Informatique
 date: 2006-06-29 01:34:22
 lang: fr
 ---

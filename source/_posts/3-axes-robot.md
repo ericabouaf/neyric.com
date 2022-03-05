@@ -1,6 +1,6 @@
 title: 3 axes robot
-tags:
-  - Robotique
+categories:
+- [Hobbies, Robotics]
 date: 2006-06-24 21:12:01
 lang: fr
 ---

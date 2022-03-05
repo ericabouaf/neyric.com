@@ -1,8 +1,8 @@
 title: 'Magic Squares, Slippy et CD Eater'
 tags:
-  - games
-  - Palm Os
-  - palmos
+- video games
+categories:
+- [Software, Palm OS]
 date: 2006-02-19 00:38:59
 lang: fr
 ---

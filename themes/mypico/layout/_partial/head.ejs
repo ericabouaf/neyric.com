@@ -41,7 +41,8 @@
 
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
 
-  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.4.4/css/pico.classless.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.4.4/css/pico.min.css">
+  <link rel="stylesheet" href="/custom.css">
 
   <%- partial('google_analytics') %>
 </head>

@@ -1,13 +1,10 @@
 title: Google Gears performances issue
 tags:
-  - administration
-  - gears
-  - Gears In Motion
-  - google
-  - interface
+- Google Gears
 id: 132
 categories:
-  - Google Gears
+- [Projects, Gears In Motion]
+- [Software, Javascript]
 date: 2007-12-03 12:10:49
 lang: en
 ---

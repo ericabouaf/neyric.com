@@ -1,12 +1,11 @@
 title: Using Salesforce from Bonita Open Solution
 tags:
-  - bpm
-  - salesforce
-  - workflow
+- bpm
+- Salesforce
+- workflow
 id: 182
 categories:
-  - Java
-  - Salesforce
+- [Software, Java]
 date: 2010-12-20 18:08:58
 lang: en
 ---

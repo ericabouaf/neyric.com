@@ -1,8 +1,8 @@
 title: Some RDF links
 tags:
-  - links
-  - rdf
-  - Uncategorized
+- links
+- rdf
+- Uncategorized
 date: 2005-07-04 02:00:00
 lang: fr
 ---

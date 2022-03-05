@@ -1,6 +1,6 @@
 title: Javascript Coding rules
 tags:
-  - javascript
+- javascript
 id: 126
 date: 2007-02-01 15:37:53
 lang: en

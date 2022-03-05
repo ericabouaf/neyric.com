@@ -1,11 +1,9 @@
 title: 'Wollabot, an IRC bot framework in Php'
 tags:
-  - framework
-  - irc
-  - php
+- irc
 id: 26
 categories:
-  - Php
+- [Software, Php]
 date: 2006-10-14 20:38:37
 lang: en
 ---

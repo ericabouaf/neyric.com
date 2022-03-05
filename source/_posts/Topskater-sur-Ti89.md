@@ -1,7 +1,8 @@
 title: Topskater sur Ti89
 tags:
-  - ti89
-  - topskater
+- video games
+categories:
+- [Software, Ti89]
 date: 2000-05-29 01:41:55
 lang: fr
 ---

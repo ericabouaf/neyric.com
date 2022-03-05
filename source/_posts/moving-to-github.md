@@ -1,12 +1,8 @@
 title: Moving to GitHub
-tags:
-  - inputEx
-  - WireIt
 id: 141
 categories:
-  - inputEx
-  - WireIt
-  - YUI Library
+- [Projects, inputEx]
+- [Projects, WireIt]
 date: 2009-01-16 20:11:07
 lang: en
 ---

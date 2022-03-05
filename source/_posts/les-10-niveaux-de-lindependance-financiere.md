@@ -4,8 +4,9 @@ lang: fr
 thumbnail: /images/independance-financiere.png
 excerpt: Aujourd’hui, j’aimerais vous présenter 10 niveaux de l’indépendance financière. Très souvent, les gens pensent que pour atteindre l’indépendance financière, il faut toucher beaucoup d’argent d’un coup, et devenir financièrement indépendant en une seule étape. En réalité, ce n’est pas comme ça qu’on y arrive. Il y a beaucoup de petites étapes à franchir. Je vous présente ici un découpage en 10 étapes, qui permet de rendre chaque étape plus accessible.
 tags:
- - indépendance financière
- - finances personnelles
+- indépendance financière
+categories:
+- [Personal Development, Personal Finances]
 ---
 
 <img src="/images/independance-financiere.png" />

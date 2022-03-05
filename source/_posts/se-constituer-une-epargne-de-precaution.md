@@ -1,7 +1,8 @@
 title: Se constituer une épargne de précaution
 tags:
- - indépendance financière
- - finances personnelles
+- indépendance financière
+categories:
+- [Personal Development, Personal Finances]
 date: 2018-04-07 22:01:00
 lang: fr
 ---

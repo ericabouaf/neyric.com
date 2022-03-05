@@ -1,6 +1,6 @@
 title: Reusable code
 tags:
-  - reusability
+- reusability
 id: 124
 date: 2007-02-01 15:20:41
 lang: en

@@ -1,8 +1,6 @@
 title: Les flux RSS
 tags:
-  - flux
-  - flux RSS
-  - rss
+- rss
 date: 2007-05-14 16:41:29
 lang: fr
 ---

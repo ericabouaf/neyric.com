@@ -1,11 +1,9 @@
 title: Ruby on Rails with Apache2 and FastCGI
 tags:
-  - apache2
-  - fcgi
-  - rails
-id: 32
+- apache2
+- fcgi
 categories:
-  - Ruby on Rails
+- [Software, Ruby on Rails]
 date: 2005-07-04 00:00:00
 lang: en
 ---

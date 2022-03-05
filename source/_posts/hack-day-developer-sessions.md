@@ -1,7 +1,7 @@
 title: Hack Day Developer Sessions
 id: 27
 categories:
-  - Javascript
+- [Software, Javascript]
 date: 2006-10-14 21:09:31
 tags:
 lang: en

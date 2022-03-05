@@ -1,10 +1,9 @@
 title: Creating Rails Plugins
 tags:
-  - plugin
-  - rails
-id: 33
+- plugin
+- rails
 categories:
-  - Ruby on Rails
+- [Software, Ruby on Rails]
 date: 2006-10-24 18:00:48
 lang: en
 ---

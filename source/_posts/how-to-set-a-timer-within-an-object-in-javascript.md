@@ -1,7 +1,7 @@
 title: How to set a timer within an object in Javascript
 tags:
-  - setTimeout
-  - timer
+- setTimeout
+- timer
 id: 35
 date: 2007-02-01 14:50:54
 lang: en

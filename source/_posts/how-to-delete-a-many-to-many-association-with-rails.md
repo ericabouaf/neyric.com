@@ -1,12 +1,7 @@
 title: How to delete a many-to-many association with Rails
 tags:
-  - association
-  - delete
-  - many
-  - rails
-id: 61
 categories:
-  - Ruby on Rails
+- [Software, Ruby on Rails]
 date: 2007-07-08 12:59:53
 lang: en
 ---

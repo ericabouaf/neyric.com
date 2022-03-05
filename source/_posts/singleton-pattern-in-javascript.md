@@ -1,9 +1,11 @@
 title: Singleton pattern in Javascript
 tags:
-  - javascript
-  - pattern
-  - singleton
-id: 120
+- javascript
+- pattern
+- singleton
+categories:
+- [Software, Javascript]
+- [Software, Design Patterns]
 date: 2007-02-01 14:57:15
 lang: en
 ---

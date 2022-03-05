@@ -1,10 +1,9 @@
 title: Bluetooth juggling ball update
 tags:
-  - ball
-  - bluetooth
-  - Bluetooth Juggling Ball
-  - juggling
-  - pictures
+- bluetooth
+categories:
+- [Projects, Bluetooth Juggling Ball]
+- [Hobbies, Juggling]
 date: 2007-07-08 00:36:22
 lang: fr
 ---

@@ -1,15 +1,12 @@
 title: WireIt 0.4.0 released
 tags:
-  - release
-  - smd
-  - visual
-  - WireIt
-  - xproc
+- smd
+- yui
+- xproc
 id: 145
 categories:
-  - inputEx
-  - WireIt
-  - YUI Library
+- [Projects, WireIt]
+- [Software, Javascript]
 date: 2009-05-17 14:39:26
 lang: en
 ---

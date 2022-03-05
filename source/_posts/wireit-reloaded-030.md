@@ -1,10 +1,11 @@
 title: 'WireIt reloaded 0.3.0 !'
 id: 139
-categories:
-  - WireIt
-  - YUI Library
-date: 2008-10-13 14:09:38
 tags:
+- yui
+categories:
+- [Projects, WireIt]
+- [Software, Javascript]
+date: 2008-10-13 14:09:38
 lang: en
 ---
 

@@ -1,7 +1,7 @@
 title: 'Performancing, enhancing blogging'
 id: 20
 categories:
-  - Web development
+- Web development
 date: 2006-10-14 19:19:45
 tags:
 lang: en

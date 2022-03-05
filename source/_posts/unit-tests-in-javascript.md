@@ -1,8 +1,8 @@
 title: Unit tests in Javascript
 tags:
-  - test
-  - unit
-id: 123
+- testing
+categories:
+- [Software, Javascript]
 date: 2007-02-01 15:15:57
 lang: en
 ---

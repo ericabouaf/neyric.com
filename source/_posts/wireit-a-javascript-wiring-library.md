@@ -1,12 +1,12 @@
 title: 'WireIt: a javascript wiring library'
 tags:
-  - javascript
-  - library
-  - WireIt
-  - wiring
+- library
+- wiring
+- yui
 id: 133
 categories:
-  - WireIt
+- [Projects, WireIt]
+- [Software, Javascript]
 date: 2007-12-06 12:45:28
 lang: en
 ---

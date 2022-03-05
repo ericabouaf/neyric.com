@@ -1,10 +1,8 @@
 title: A new Javascript blog is born
-id: 74
 categories:
-  - Javascript
+- [Software, Javascript]
 date: 2008-02-08 14:47:29
 tags:
-  - javascript 
 lang: en
 ---
 

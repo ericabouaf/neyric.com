@@ -1,6 +1,6 @@
 title: Vos flux sur timeline
 tags:
-  - flux RSS
+- rss
 date: 2008-05-07 18:34:19
 lang: fr
 ---

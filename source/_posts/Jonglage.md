@@ -1,8 +1,10 @@
 title: Jonglage
 tags:
-  - juggling
+- juggling
 date: 2006-02-28 00:15:03
 lang: fr
+categories:
+- [Hobbies, Juggling]
 ---
 
 {% blockquote %}
